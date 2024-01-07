@@ -76,9 +76,10 @@ nav a {
 /* header style */
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
+    
 }
 
 .banner {
@@ -217,6 +218,7 @@ main {
     color: #181818;
 }
 
+
 .box {
     width: 500px;
     height: 200px;
@@ -264,7 +266,7 @@ main {
 
 .resume-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .bottom-button {
